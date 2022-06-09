@@ -8,6 +8,7 @@
             <asp:Label ID="lblWeeklypiechart" runat="server" CssClass="fs-4" Font-Bold="true">Weekly Revenue Statistics</asp:Label>
             <%--Pie Chart--%>
             <div class="alert-warning" style="height:400px;">
+<<<<<<< HEAD
                 <asp:Chart ID="Chart1" runat="server" DataSourceID="SqlDataSource1" Width="765px">
                     <Series>
                         <asp:Series Name="Series1" XValueMember="ReasonForReplacement" YValueMembers="counts" ChartType="Doughnut"></asp:Series>
@@ -26,6 +27,9 @@ CASE
     ELSE 'Other'
 END as ReasonForReplacement,
 count(*) as counts from Person where ReasonForReplacement between 1 and 6 group by ReasonForReplacement"></asp:SqlDataSource>
+=======
+                
+>>>>>>> b20ed38642b13fca7da6fba709d28a38cdd3f20b
             </div>
 
         </div>
