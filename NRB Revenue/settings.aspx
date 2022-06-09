@@ -17,7 +17,7 @@
             </div>
 
             <%--add user section--%>
-            <div class="col row">
+            <div class="col">
                 <div class="row">                    
                     <div class="col"><asp:TextBox ID="txtfirstname" runat="server" CssClass="form-control" Font-Size="X-Large" placeholder="Firstname"></asp:TextBox></div>
                     <div class="col"><asp:TextBox ID="txtsurname" runat="server" CssClass="form-control" Font-Size="X-Large" placeholder="Surname"></asp:TextBox></div>
@@ -32,7 +32,9 @@
                     </div>
                     <div class="col"><asp:TextBox ID="txtposition" runat="server" CssClass="form-control" Font-Size="X-Large" placeholder="Position"></asp:TextBox></div>
                 </div>
+                <div class="row">
 
+                </div>
             </div>            
         </div>
     </div>
