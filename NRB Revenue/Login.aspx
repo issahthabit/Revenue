@@ -12,6 +12,7 @@
                 <asp:TextBox ID="LoginPassword" runat="server" CssClass="col-12 form-control fs-4 mt-2" Placeholder="PASSWORD" Type="Password" Font-Size="X-Large"></asp:TextBox>
                 <asp:Button ID="Loginbtn" runat="server" CssClass="btn btn-md btn-info mt-2 fs-3 col-12" Text="LOG IN" Font-Size="X-Large" OnClick="Loginbtn_Click" />
             </div>
+            
         </div>
         <div class="col-4"></div>
     </div>
